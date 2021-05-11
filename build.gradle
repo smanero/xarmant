@@ -10,7 +10,7 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
-    maven { url 'http://dist.wso2.org/maven2/'}
+    maven { url 'https://dist.wso2.org/maven2/'}
     maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' }
     flatDir {
         dirs 'lib'
@@ -28,9 +28,7 @@ dependencies {
     implementation group: 'com.googlecode.javaewah.wso2', name: 'JavaEWAH', version: '0.3.2.wso2v1'
     implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.30'
     implementation group: 'org.eclipse.jgit', name: 'org.eclipse.jgit', version: 'inigo-custom'
-    implementation
-     group: 'org.jetbrains.kotlinx', name: 'kotlinx-coroutines-core', version: '1.4.2'
-
+    implementation group: 'org.jetbrains.kotlinx', name: 'kotlinx-coroutines-core', version: '1.4.2'
 }
 
 test {
