@@ -1,4 +1,4 @@
-package xarmanta.launch;
+package xarmant.launch;
 
 import javafx.application.Application;
 
