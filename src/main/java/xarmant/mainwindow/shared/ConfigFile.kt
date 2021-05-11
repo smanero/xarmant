@@ -1,4 +1,4 @@
-package xarmanta.mainwindow.shared
+package xarmant.mainwindow.shared
 
 import java.io.Serializable
 

@@ -1,8 +1,8 @@
-package xarmanta.mainwindow.model
+package xarmant.mainwindow.model
 
 import org.eclipse.jgit.revplot.PlotCommit
 import org.eclipse.jgit.revwalk.RevCommit
-import xarmanta.mainwindow.infraestructure.jgit.JavaFxLane
+import xarmant.mainwindow.infraestructure.jgit.JavaFxLane
 
 enum class CommitType {
     COMMIT,

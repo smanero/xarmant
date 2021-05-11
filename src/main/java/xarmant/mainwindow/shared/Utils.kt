@@ -1,5 +1,5 @@
 
-package xarmanta.shared
+package xarmant.shared
 
 import java.io.File
 import java.util.function.Consumer

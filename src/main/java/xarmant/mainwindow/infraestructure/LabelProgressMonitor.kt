@@ -1,4 +1,4 @@
-package xarmanta.mainwindow.infraestructure
+package xarmant.mainwindow.infraestructure
 
 import javafx.application.Platform
 import javafx.scene.control.Label

@@ -1,4 +1,4 @@
-package xarmanta.mainwindow.shared
+package xarmant.mainwindow.shared
 
 import org.eclipse.jgit.api.Git
 import org.eclipse.jgit.api.Status
@@ -7,8 +7,8 @@ import org.eclipse.jgit.lib.Ref
 import org.eclipse.jgit.revplot.PlotWalk
 import org.eclipse.jgit.revwalk.RevCommit
 import org.eclipse.jgit.transport.RemoteConfig
-import xarmanta.mainwindow.infraestructure.XarmantProgressMonitor
-import xarmanta.mainwindow.infraestructure.jgit.JavaFxCommitList
+import xarmant.mainwindow.infraestructure.XarmantProgressMonitor
+import xarmant.mainwindow.infraestructure.jgit.JavaFxCommitList
 import org.eclipse.jgit.revwalk.RevWalk
 import org.eclipse.jgit.treewalk.CanonicalTreeParser
 import org.eclipse.jgit.treewalk.EmptyTreeIterator
@@ -23,7 +23,7 @@ import org.eclipse.jgit.diff.DiffFormatter
 import org.eclipse.jgit.diff.EditList
 import org.eclipse.jgit.dircache.DirCacheIterator
 import org.eclipse.jgit.treewalk.FileTreeIterator
-import xarmanta.mainwindow.model.*
+import xarmant.mainwindow.model.*
 
 
 // Clase para wrapear JGit

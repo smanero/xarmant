@@ -1,8 +1,8 @@
-package xarmanta.mainwindow.infraestructure
+package xarmant.mainwindow.infraestructure
 
-import xarmanta.mainwindow.shared.ConfigFile
-import xarmanta.mainwindow.shared.GitContext
-import xarmanta.mainwindow.shared.KotlinAsyncRunner
+import xarmant.mainwindow.shared.ConfigFile
+import xarmant.mainwindow.shared.GitContext
+import xarmant.mainwindow.shared.KotlinAsyncRunner
 import java.io.*
 import java.nio.file.Files
 import java.nio.file.Path

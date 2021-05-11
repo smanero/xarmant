@@ -1,6 +1,6 @@
-package xarmanta.mainwindow.shared
+package xarmant.mainwindow.shared
 
-import xarmanta.mainwindow.shared.exceptions.InvalidUrl
+import xarmant.mainwindow.shared.exceptions.InvalidUrl
 import java.io.File
 import java.io.Serializable
 import java.net.URL

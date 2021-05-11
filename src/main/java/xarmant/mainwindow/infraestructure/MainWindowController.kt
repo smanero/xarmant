@@ -1,4 +1,4 @@
-package xarmanta.mainwindow.infraestructure
+package xarmant.mainwindow.infraestructure
 
 import javafx.application.Platform
 import javafx.beans.InvalidationListener
@@ -14,7 +14,7 @@ import javafx.geometry.Pos
 import javafx.scene.control.*
 import javafx.scene.layout.VBox
 import javafx.scene.layout.HBox
-import xarmanta.mainwindow.shared.KotlinAsyncRunner
+import xarmant.mainwindow.shared.KotlinAsyncRunner
 import javafx.scene.control.ButtonType
 import javafx.scene.control.Alert.AlertType
 import javafx.scene.control.Alert
@@ -27,15 +27,15 @@ import org.eclipse.jgit.diff.Edit
 import org.eclipse.jgit.diff.EditList
 import org.eclipse.jgit.errors.RepositoryNotFoundException
 //import org.fxmisc.richtext.CodeArea
-import xarmanta.mainwindow.application.Clone
-import xarmanta.mainwindow.model.Commit
-import xarmanta.mainwindow.shared.GitContext
-import xarmanta.mainwindow.shared.XGit
+import xarmant.mainwindow.application.Clone
+import xarmant.mainwindow.model.Commit
+import xarmant.mainwindow.shared.GitContext
+import xarmant.mainwindow.shared.XGit
 import java.net.URL
 
-import xarmanta.mainwindow.infraestructure.jgit.JavaFxPlotRenderer
-import xarmanta.mainwindow.model.FileChanges
-import xarmanta.mainwindow.shared.ConfigFile
+import xarmant.mainwindow.infraestructure.jgit.JavaFxPlotRenderer
+import xarmant.mainwindow.model.FileChanges
+import xarmant.mainwindow.shared.ConfigFile
 import java.io.*
 
 

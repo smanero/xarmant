@@ -1,6 +1,6 @@
 package xarmant.mainwindow.infraestructure
 
-import xarmanta.mainwindow.infraestructure.XarmantProgressMonitor
+import xarmant.mainwindow.infraestructure.XarmantProgressMonitor
 
 class ConsoleMonitor : XarmantProgressMonitor() {
     override fun onUpdate(taskName: String?, workCurr: Int) {

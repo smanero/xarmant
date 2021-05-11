@@ -1,4 +1,4 @@
-package xarmanta.mainwindow.model
+package xarmant.mainwindow.model
 
 import org.eclipse.jgit.diff.DiffEntry
 

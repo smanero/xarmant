@@ -1,8 +1,8 @@
-package xarmanta.mainwindow.application
+package xarmant.mainwindow.application
 
-import xarmanta.mainwindow.infraestructure.XarmantProgressMonitor
-import xarmanta.mainwindow.shared.GitContext
-import xarmanta.mainwindow.shared.XGit
+import xarmant.mainwindow.infraestructure.XarmantProgressMonitor
+import xarmant.mainwindow.shared.GitContext
+import xarmant.mainwindow.shared.XGit
 // Esto va a desaoarecer:
 /**
  * Era un intento de arquitectura hexagonal, per, sabes que?

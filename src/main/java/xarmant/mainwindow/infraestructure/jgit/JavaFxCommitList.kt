@@ -1,4 +1,4 @@
-package xarmanta.mainwindow.infraestructure.jgit
+package xarmant.mainwindow.infraestructure.jgit
 
 import javafx.scene.paint.Color
 import javafx.scene.paint.Color.*
