@@ -1,32 +1,29 @@
+# eclipse
+.settings
+settings
 .gradle
-build
-/gradle
-/.classpath
-/.project
-/.settings
-.idea
-.java-version
-.history/
-*.iml
-.gradletasknamecache
-.build
-conf/*
-/conf/*
-logs
-/efs
-.sdkmanrc
+gradle
 gradlew
-bin/*
-# eclipse gradle project
-/build/
-/settings/
-/gradle/
-/gradlew
-/.project
-/config.xar
-
-*/out
-out/*
+config.xar
+.classpath
+.project
 
 # IntelliJ
+.idea
+.java-version
+.gradletasknamecache
+.sdkmanrc
+.history/
+conf/*
+logs
+efs
+*.iml
+
+# vscode
+.vscode
+
+# output
+.build
+build
+bin
 out
