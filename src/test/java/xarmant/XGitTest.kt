@@ -58,14 +58,14 @@ class XGitTest {
 
     fun `newCommitNewFile`(jgit: Git, filename: String) {
         Thread.sleep(1000L)
-        Files.createFile(Path.of("./test/$filename"))
+        Files.createFile(Path.of("/tmp/test/$filename"))
         jgit.add().addFilepattern(filename).call();
         jgit.commit().setMessage("Commit $filename").call();
     }
 
     @Test
     fun `commits are listed in desired order`() {
-        val xgit = XGit(GitContext(null, File("./test")), ConsoleMonitor()).open()
+        val xgit = XGit(GitContext(null, File("/tmp/test")), ConsoleMonitor()).open()
         val commits = xgit.reverseWalkTimed()
         commits.forEach{
             println("${it.description} ${it.branches}")
